@@ -49,6 +49,10 @@ h3 {
 
 }
 
+input:focus {
+    font-weight: bold;
+}
+
 label {
     text-align: left;
 }
@@ -63,9 +67,9 @@ div.formstory {
     padding-top: 2%;
     padding-bottom: 3%;
     box-sizing: border-box;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 75%;
+    margin-left: 13%;
+    margin-right: 13%;
 
     border: 1px solid #000;
 
@@ -99,21 +103,16 @@ body {
 
 
 
+/*
 @media (min-width:640px) {
     .image {
         margin-left: 25%;
         margin-right: 25%;
     }
 
-}
+}*/
 
-@media (min-width:840px) {
-    .image {
-        display: contents;
-    }
-}
-
-@media(max-width:411px) {
+@media(max-width:990px) {
 
 
     h3 {
@@ -123,7 +122,13 @@ body {
 
 
     img.img-responsive {
-        margin-left: 3%;
-        margin-right: 3%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media (max-width:714px) {
+    .image {
+        display: none;
     }
 }
